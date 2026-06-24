@@ -94,9 +94,17 @@ h3 {
   font-size: 21px;
 }
 
+.lead span {
+  display: block;
+}
+
 .lead strong {
   color: var(--ink);
   font-weight: 900;
+}
+
+.keep {
+  white-space: nowrap;
 }
 
 .pill-row,
@@ -272,8 +280,15 @@ h3 {
 
 .text-link {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
   margin-top: 14px;
-  color: var(--blue);
+  padding: 0 13px;
+  border: 1px solid #d7e6ff;
+  border-radius: 999px;
+  background: #f4f8ff;
+  color: var(--blue-deep);
   font-weight: 900;
 }
 
